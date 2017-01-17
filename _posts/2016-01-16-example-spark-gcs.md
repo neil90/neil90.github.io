@@ -1,0 +1,10 @@
+---
+layout:     post
+title:      Announcing Version 2.0
+date:       2016-01-16
+summary:    Simple example of using Spark with Google Cloud
+categories: spark
+---
+
+<script src="https://gist.github.com/neil90/51a8fb2d96f2552f84234ab576f48eb2.js"></script>
+
