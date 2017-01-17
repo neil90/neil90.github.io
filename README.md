@@ -1,3 +1,3 @@
-#Website
+# Simple Website
 
-Simple blog website for my content using Pixyll jekyll template
+Simple website for blogging using jekyll template pixyll
