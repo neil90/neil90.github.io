@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Announcing Version 2.0
+title:      Pyspark GCS Example
 date:       2016-01-16
 summary:    Simple example of using Spark with Google Cloud
 categories: spark
