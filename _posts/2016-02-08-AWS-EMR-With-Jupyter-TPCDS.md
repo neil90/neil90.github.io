@@ -24,10 +24,10 @@ categories: AWS
                    InstanceGroupType=MASTER,InstanceCount=1,InstanceType=m3.xlarge \
                        InstanceGroupType=CORE,InstanceCount=3,InstanceType=m3.xlarge \
                          --region us-west-2 \
-                           --log-uri <Put S3 log folder here> \
+                           --log-uri S3Folderhere \
                              --configurations '[{"Classification":"capacity-scheduler","Properties":{"yarn.scheduler.capacity.resource-calculator":"org.apache.hadoop.yarn.util.resource.DominantResourceCalculator"},"Configurations":[]}]' \
                                --steps \
                                  Type=CUSTOM_JAR,Name="LOAD TPCDS Data",ActionOnFailure=CONTINUE,Jar=s3://us-west-2.elasticmapreduce/libs/script-runner/script-runner.jar,Args=["s3://bootstrap-emr-neil/tpcds_load.sh","5","PARQUET"] \
-                                   Type=CUSTOM_JAR,Name="Add Jupyter",ActionOnFailure=CONTINUE,Jar=s3://us-west-2.elasticmapreduce/libs/script-runner/script-runner.jar,Args=["s3://bootstrap-emr-neil/simple_jupyter_spark_setup.sh","<put password here>","8882"]</code>
+                                   Type=CUSTOM_JAR,Name="Add Jupyter",ActionOnFailure=CONTINUE,Jar=s3://us-west-2.elasticmapreduce/libs/script-runner/script-runner.jar,Args=["s3://bootstrap-emr-neil/simple_jupyter_spark_setup.sh","passwordhere","8882"]</code>
 
 
