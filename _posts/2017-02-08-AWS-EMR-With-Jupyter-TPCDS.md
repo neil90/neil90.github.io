@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      AWS EMR with TPCDS/Jupyter
-date:       2016-02-07
+date:       2017-02-07
 summary:    Launching EMR Cluster with TPCDS Data and Jupyter Notebook
 categories: AWS
 ---
